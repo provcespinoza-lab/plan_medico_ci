@@ -1,0 +1,67 @@
+CREATE OR REPLACE TABLE `ci-datalake-dev.ci_dtlk_bqd_staging_dev_RNC.MAESTRO_GARANTE`  
+(
+  ESTADO_GARANTE             STRING,
+  CODIGO_GARANTE_XHIS        INT64,
+  DESCRIPCION_GARANTE_XHIS   STRING,
+  CODIGO_GARANTE_RNC         INT64,
+  DESCRIPCION_GARANTE_RNC    STRING
+);
+
+INSERT INTO `ci-datalake-dev.ci_dtlk_bqd_staging_dev_RNC.MAESTRO_GARANTE`
+(ESTADO_GARANTE, CODIGO_GARANTE_XHIS, DESCRIPCION_GARANTE_XHIS, CODIGO_GARANTE_RNC, DESCRIPCION_GARANTE_RNC)
+VALUES
+  ('Activo',2028,'REDBRIDGE',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',2031,'MAKRO SUPERMAYORISTA S.A.',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',2032,'COMPAÑIA HARD DISCOUNT S.A.C.',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',2033,'OPERADORA DE SERV. LOGISTICOS',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',2034,'COMPAÑIA FOOD RETAIL S.A.C',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',2042,'DIOCESIS DE HUARI',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',50,'ALICORP',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',56,'MONDELEZ PERU S.A.',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',57,'LA ESPERANZA DEL PERU S.A.',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',58,'UNIV. SAN MARTIN DE PORRES',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',2037,'HENNER',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',2038,'CARE24',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',2040,'VIVIR SEGUROS',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',1,'*PARTICULAR*',0,'No Asegurado')
+, ('Activo',2,'*FINANCIADOR GENERICO*',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',3,'ALLIANZ',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',4,'ASSIST CARD',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',6,'BEST DOCTOR',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',8,'BUPA',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',10,'CHUBB',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',11,'CIGNA',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',12,'CNPC PERU',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',14,'CRECER SEGUROS',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',15,'DELOSI',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',18,'FONDO BCR',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',19,'IGS INTEGRAL GROUP SOLUTION',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',21,'LA POSITIVA EPS',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',22,'LA POSITIVA SEGUROS',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',23,'LA PROTECTORA',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',25,'MAPFRE EPS',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',26,'MAPFRE SEGUROS',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',27,'MEF',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',28,'MINCETUR',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',29,'ONCOSALUD',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',30,'PACIFICO EPS',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',31,'PACIFICO SEGUROS',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',33,'PETROPERU',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',34,'PRESTIGE INTERNATIONAL',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',35,'PROTECTA',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',36,'RIMAC EPS',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',37,'RIMAC SEGUROS',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',38,'SANITAS EPS',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',39,'SEDAPAL',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',40,'SIST. ALTER. DE BENEFICIOS S.A',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',41,'SIGDELO',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',42,'SIMA',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',44,'TURISMO CIVA',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',45,'UNITED HEALTH INTERNACIONAL',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',46,'INTERSEGUROS',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',47,'BCR',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',2036,'FESALUD S.A',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',2039,'QUALITAS',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',2041,'ESSALUD',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',2029,'IMPACTA',7,'Privado Nacional – Pre-Pagas')
+, ('Activo',2030,'VUMI',7,'Privado Nacional – Pre-Pagas');

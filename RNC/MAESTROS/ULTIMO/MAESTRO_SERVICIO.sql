@@ -1,0 +1,14 @@
+CREATE TABLE `tu_proyecto.tu_dataset.servicio` (
+  CODIGO_SERVICIO_XHIS      INT64,
+  COD_CENTRO                INT64,
+  CODIGO_AREA               INT64,
+  DESCRIPCION_SERVICIO_XHIS STRING,
+  SERV_ACTIVO               INT64,
+  ESPECIAL_PK               INT64,
+  ESPECIALIDAD              STRING,
+  ESPE_CORTO                STRING,
+  CODIGO_SERVICIO_RNC       INT64,
+  DESCRIPCION_SERVICIO_RNC  STRING
+);
+
+
